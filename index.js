@@ -34,3 +34,5 @@ function feedForward(inputs=[], target=0, epochs=1) {
 		console.log(`época: ${epoch} - taxa de erro: ${error} - saída: ${output}`);
 	}
 }
+
+feedForward([0], 0.1, 800);
